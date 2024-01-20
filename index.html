@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frida Rodriguez Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="deskstop-nav">
+        <div class="logo">Frida Rodriguez</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Acerca de Mi</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Frida Rodriguez</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Acerca de Mi</a></li>
+                <li><a href="#experiencia" onclick="toggleMenu()">Experiencia</a></li>
+                <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
+                <li><a href="#contact"onclick="toggleMenu()">Contacto</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/perfil.png" alt="Frida Rodriguez">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hola! Me llamo</p>
+            <h1 class="tittle">Frida Rodriguez</h1>
+            <p class="section__text__p2">Ingenieria en TICs</p>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/cv.pdf')">
+                 Descarga mi CV
+            </button>
+            <button
+                class="btn btn-color-1"
+                onclick="location.href ='./#contact'">
+                 Información de Contacto
+            </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Mi Perfil en LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/frida-ixchel-rodriguez-paredes/'">
+                <img src="./assets/github.png" alt="Mi Perfil en GitHub" class="icon" onclick="location.href='https://github.com/FridaRodriguezPa'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Conoce más</p>
+        <h1 class="tittle">Acerca de Mi </h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/fotoanimada.png" alt="Frida Animada" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Icon de Experiencia" class="icon">
+                        <h3>Experiencia</h3>
+                        <p>2+ años <br> Full Stack Development <br>GFT | HarbourVest Partners</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Icon de Educacion" class="icon">
+                        <h3>Educación</h3>
+                        <p>Ingenieria en Tecnológia de la Información y Comunicaciones <br> Tecnologico de Estudios Superiores de Coacalco</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Soy una apasionada Ingeniera en Tecnologías de la Información, con una sólida formación y experiencia en el mundo digital. Mi dedicación a la innovación y la resolución de problemas me ha llevado a destacarme en el campo de las tecnologías de la información. Como profesional en el área de IT, navego con destreza a través de los desafíos tecnológicos en constante evolución, aprovechando mi habilidad para diseñar soluciones inteligentes y eficientes.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experiencia'">
+    </section>
+    <section id="experiencia">
+        <p class="section__text__p1">Mi</p>
+        <h1 class="tittle">Experiencia</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-tittle">Frontend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>Angular</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Nivel Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-tittle">Backend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Nivel Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>ActiveDocs</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Nivel Medio</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experiencia icon" class="icon">
+                            <div>
+                                <h3>Azure DevOps</h3>
+                                <p>Nivel Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#proyectos'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Mis</p>
+        <h1 class="tittle">Proyectos</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/paxx.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">PAXX</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/NiverMtz/projecto-integrador-generation'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://nivermtz.github.io/projecto-integrador-generation/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/portafolio.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">PORTAFOLIO</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/FridaRodriguezPa/Responsive-Portafolio'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Mi</p>
+        <h1 class="tittle">Contacto</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:fridaixchelrp@gmail.com">fridaixchelrp@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/frida-ixchel-rodriguez-paredes/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Frida Rodriguez. All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
